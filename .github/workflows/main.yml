@@ -29,4 +29,4 @@ jobs:
         username: egardening_dev
         password: ${{ secrets.ftp_password }}
         local-dir: publish/
-        server-dir: /var/www/projects/eGardening_Development/travellist/public
+        server-dir: /var/www/projects/eGardening_Development/travellist/public/
