@@ -12,3 +12,4 @@ jobs:
         url: "ftp://167.86.118.244/eGardening_Development/travellist"
         user: egardening_dev
         password: ${{ secrets.ftp_password }}
+        options: --syncroot publish
