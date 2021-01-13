@@ -1,3 +1,3 @@
 <?php
-  echo "Zan je kul!"
+  echo "sdf!"
 ?>
