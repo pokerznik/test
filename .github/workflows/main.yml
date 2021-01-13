@@ -9,6 +9,6 @@ jobs:
     - name: git-ftp push
       uses: sebastianpopp/git-ftp-action@releases/v3
       with:
-        url: "ftp://167.86.118.244/travellist/"
+        url: "ftp://167.86.118.244/"
         user: egardening_dev
         password: ${{ secrets.ftp_password }}
