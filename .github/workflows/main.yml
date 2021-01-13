@@ -13,4 +13,4 @@ jobs:
         user: egardening_dev
         password: ${{ secrets.ftp_password }}
         syncroot: /publish
-        options: --remote-root /publish
+        options: --remote-root travellist/publish
