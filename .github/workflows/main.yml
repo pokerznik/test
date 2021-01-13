@@ -29,6 +29,6 @@ jobs:
         username: egardening_dev
         password: ${{ secrets.ftp_password }}
         local-dir: ./publish/
-        server-dir: /var/www/projects/eGardening_Development/travellist/public/
+        server-dir: /travellist/public/
         log-level: verbose
         dry-run: true
